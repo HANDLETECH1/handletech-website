@@ -6,8 +6,8 @@ const features = [
   {
     icon: Layers,
     title: 'Unified Inbox',
-    body: 'Manage WhatsApp, Instagram, Facebook, Telegram, X, LinkedIn and YouTube from one dashboard. No more app-switching, no missed messages.',
-    bullets: ['7+ channels', 'Shared team inbox', 'Smart routing'],
+    body: 'Manage WhatsApp, Instagram, Facebook, LinkedIn, your website live chat and mobile apps from one dashboard. No more app-switching, no missed messages.',
+    bullets: ['6+ channels', 'Shared team inbox', 'Smart routing'],
   },
   {
     icon: Bot,

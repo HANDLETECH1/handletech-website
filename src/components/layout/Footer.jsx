@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="col-span-2">
             <Logo />
             <p className="mt-5 text-sm text-white/55 leading-relaxed max-w-xs">
-              Revolutionize customer engagement. Automate communication across every channel — WhatsApp, Instagram, Facebook, Telegram and more — from one intelligent hub.
+              Revolutionize customer engagement. Automate communication across every channel — WhatsApp, Instagram, Facebook, your website, mobile apps and more — from one intelligent hub.
             </p>
             <div className="mt-6 space-y-2 text-sm text-white/55">
               <a href="mailto:info@handletech.io" className="flex items-center gap-2 hover:text-white transition-colors">

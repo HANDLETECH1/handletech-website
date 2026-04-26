@@ -6,9 +6,9 @@ const channelLogos = [
   { name: 'WhatsApp', color: '#25D366' },
   { name: 'Instagram', color: '#E1306C' },
   { name: 'Facebook', color: '#1877F2' },
-  { name: 'Telegram', color: '#26A5E4' },
-  { name: 'X', color: '#FFFFFF' },
   { name: 'LinkedIn', color: '#0A66C2' },
+  { name: 'Websites', color: '#41B5E6' },
+  { name: 'Mobile apps', color: '#A855F7' },
 ];
 
 export default function Hero() {
@@ -38,7 +38,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-6 text-base md:text-lg text-white/65 leading-relaxed max-w-xl">
-              Automate communication across WhatsApp, Instagram, Facebook, Telegram and more — from one intelligent hub. Built for businesses ready to scale conversations into conversions.
+              Automate communication across WhatsApp, Instagram, Facebook, your website, mobile apps and more — from one intelligent hub. Built for businesses ready to scale conversations into conversions.
             </p>
 
             <div className="mt-9 flex flex-col sm:flex-row gap-3">
@@ -223,10 +223,10 @@ function HeroVisual() {
       >
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs font-bold text-white">Channels live</span>
-          <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-bold">7/7</span>
+          <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-bold">6/6</span>
         </div>
         <div className="flex gap-1">
-          {['#25D366', '#E1306C', '#1877F2', '#26A5E4', '#0A66C2', '#FF0000', '#FFFFFF'].map((c, i) => (
+          {['#25D366', '#E1306C', '#1877F2', '#0A66C2', '#41B5E6', '#A855F7'].map((c, i) => (
             <span
               key={i}
               className="flex-1 h-1.5 rounded-full"

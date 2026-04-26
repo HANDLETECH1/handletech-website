@@ -14,8 +14,9 @@ const sidebarItems = [
 const inbox = [
   { name: 'Ahmed Khalil', channel: 'WhatsApp', preview: 'Thanks! When will my order arrive?', time: '2m', unread: 2, color: '#25D366' },
   { name: 'Layla Hassan', channel: 'Instagram', preview: 'Do you have this in size M?', time: '5m', unread: 1, color: '#E1306C' },
-  { name: 'Omar Sayed', channel: 'Telegram', preview: 'Auto-resolved by Handle AI ✓', time: '12m', unread: 0, color: '#26A5E4' },
-  { name: 'Fatima Noor', channel: 'Facebook', preview: 'Can I get a refund for order #4821?', time: '24m', unread: 1, color: '#1877F2' },
+  { name: 'Omar Sayed', channel: 'Website', preview: 'Auto-resolved by Handle AI ✓', time: '12m', unread: 0, color: '#41B5E6' },
+  { name: 'Fatima Noor', channel: 'Mobile App', preview: 'Can I track my order in the app?', time: '18m', unread: 1, color: '#A855F7' },
+  { name: 'Khalid Al-Sayed', channel: 'Facebook', preview: 'Can I get a refund for order #4821?', time: '24m', unread: 1, color: '#1877F2' },
 ];
 
 const chartBars = [42, 58, 35, 72, 64, 89, 76, 92, 81, 68, 94, 100];

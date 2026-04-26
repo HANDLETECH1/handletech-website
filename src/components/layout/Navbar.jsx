@@ -38,7 +38,7 @@ export default function Navbar() {
           : 'bg-transparent border-b border-transparent'
       }`}
     >
-      <nav className="mx-auto flex h-16 md:h-18 w-full max-w-7xl items-center justify-between px-5 md:px-8">
+      <nav className="mx-auto flex h-20 md:h-24 w-full max-w-7xl items-center justify-between px-5 md:px-8">
         <Logo />
 
         <ul className="hidden lg:flex items-center gap-1">

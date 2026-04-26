@@ -1,6 +1,6 @@
 export default function Logo({ variant = 'full', className = '' }) {
   const src = variant === 'icon' ? '/logos/handle-icon-light.png' : '/logos/handle-logo-light.png';
-  const height = variant === 'icon' ? 'h-10' : 'h-10';
+  const height = variant === 'icon' ? 'h-12' : 'h-14 md:h-16';
 
   return (
     <a

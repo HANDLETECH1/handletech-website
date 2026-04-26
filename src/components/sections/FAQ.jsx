@@ -6,7 +6,7 @@ import Section, { SectionHeader } from '../ui/Section.jsx';
 const faqs = [
   {
     q: 'What channels does Handle AI support?',
-    a: 'Out of the box: WhatsApp Business API, Instagram, Facebook Messenger, LinkedIn, your website (live-chat widget), and your mobile apps (iOS + Android SDKs). We also offer custom integrations for SMS, email, and any platform with a public API.',
+    a: 'Out of the box: WhatsApp Business API, Instagram, Facebook Messenger, your website (live-chat widget), and your mobile apps (iOS + Android SDKs). We also offer custom integrations for SMS, email, and any platform with a public API.',
   },
   {
     q: 'How long does setup take?',

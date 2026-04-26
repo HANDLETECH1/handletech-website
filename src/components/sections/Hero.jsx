@@ -6,7 +6,6 @@ const channelLogos = [
   { name: 'WhatsApp', color: '#25D366' },
   { name: 'Instagram', color: '#E1306C' },
   { name: 'Facebook', color: '#1877F2' },
-  { name: 'LinkedIn', color: '#0A66C2' },
   { name: 'Websites', color: '#41B5E6' },
   { name: 'Mobile apps', color: '#A855F7' },
 ];
@@ -223,10 +222,10 @@ function HeroVisual() {
       >
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs font-bold text-white">Channels live</span>
-          <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-bold">6/6</span>
+          <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-bold">5/5</span>
         </div>
         <div className="flex gap-1">
-          {['#25D366', '#E1306C', '#1877F2', '#0A66C2', '#41B5E6', '#A855F7'].map((c, i) => (
+          {['#25D366', '#E1306C', '#1877F2', '#41B5E6', '#A855F7'].map((c, i) => (
             <span
               key={i}
               className="flex-1 h-1.5 rounded-full"

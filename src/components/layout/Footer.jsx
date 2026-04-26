@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, Linkedin, Youtube, Mail, MapPin } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Mail, MapPin } from 'lucide-react';
 import Logo from './Logo.jsx';
 
 const columns = [
@@ -41,11 +41,9 @@ const columns = [
 ];
 
 const socials = [
-  { Icon: Linkedin, href: '#', label: 'LinkedIn' },
   { Icon: Twitter, href: '#', label: 'X / Twitter' },
   { Icon: Instagram, href: '#', label: 'Instagram' },
   { Icon: Facebook, href: '#', label: 'Facebook' },
-  { Icon: Youtube, href: '#', label: 'YouTube' },
 ];
 
 export default function Footer() {
